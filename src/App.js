@@ -57,7 +57,7 @@ function App() {
       </button>
       {matchingKeywords.length > 0 && (
         <div>
-          <h2 style={{ color: "aqua" }}>Matching Keywords:</h2>
+          <h2 style={{ color: "black" }}>Matching Keywords:</h2>
           <ul className="list">
             {matchingKeywords.map((keyword, index) => (
               <li className="list-item" key={index}>
